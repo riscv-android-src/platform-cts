@@ -49,10 +49,14 @@ LOCAL_CFLAGS := -Wall -Werror -Wno-unused-parameter
 
 LOCAL_HEADER_LIBRARIES := jni_headers
 LOCAL_SHARED_LIBRARIES := libdl liblog
-LOCAL_STATIC_LIBRARIES := libRScpp_static
+#LOCAL_STATIC_LIBRARIES := libRScpp_static
 
 LOCAL_SDK_VERSION := 21
 
 LOCAL_NDK_STL_VARIANT := c++_static
 
 include $(BUILD_SHARED_LIBRARY)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 019ea5490f5... Initial riscv64

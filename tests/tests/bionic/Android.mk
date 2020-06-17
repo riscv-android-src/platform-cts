@@ -38,12 +38,12 @@ LOCAL_STATIC_LIBRARIES += \
     libz \
     libutils \
     libgtest \
-    libLLVMObject \
-    libLLVMBitReader \
-    libLLVMMC \
-    libLLVMMCParser \
-    libLLVMCore \
-    libLLVMSupport \
+    #libLLVMObject \
+    #libLLVMBitReader \
+    #libLLVMMC \
+    #libLLVMMCParser \
+    #libLLVMCore \
+    #libLLVMSupport \
 
 LOCAL_SYSTEM_SHARED_LIBRARIES := libc.bootstrap libm.bootstrap libdl.bootstrap
 
