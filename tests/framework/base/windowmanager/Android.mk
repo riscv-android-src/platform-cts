@@ -39,9 +39,9 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     hamcrest-library \
     platform-test-annotations \
     cts-wm-util \
-    CtsSurfaceValidatorLib \
     CtsMockInputMethodLib \
     metrics-helper-lib \
+    #CtsSurfaceValidatorLib \
 
 LOCAL_COMPATIBILITY_SUITE := cts vts general-tests cts_instant
 

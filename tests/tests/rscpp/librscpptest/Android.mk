@@ -47,13 +47,11 @@ LOCAL_C_INCLUDES += frameworks/rs
 LOCAL_CFLAGS := -Wall -Werror -Wno-unused-parameter
 
 LOCAL_SHARED_LIBRARIES := libdl liblog
-LOCAL_STATIC_LIBRARIES := libRScpp_static
+#LOCAL_STATIC_LIBRARIES := libRScpp_static
 
 LOCAL_SDK_VERSION := 21
 
 LOCAL_NDK_STL_VARIANT := c++_static
 
 include $(BUILD_SHARED_LIBRARY)
-
-
 
