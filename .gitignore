@@ -1,0 +1,11 @@
+*.pyc
+*.*~
+*.py~
+.cproject
+/bin
+.idea/*
+.idea/
+gen/
+*.iml
+*.class
+*.sw*
