@@ -34,7 +34,7 @@ android_test {
         "android-ex-camera2",
         "compatibility-common-util-devicesidelib",
         "cts-sensors-tests",
-        "cts-camera-performance-tests",
+        //"cts-camera-performance-tests",
         "ctstestrunner-axt",
         "apache-commons-math",
         "androidplot",

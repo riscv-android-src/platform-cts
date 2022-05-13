@@ -21,6 +21,7 @@ cc_test_library {
     name: "libctscpu_jni",
     srcs: ["CpuNativeJni.cpp"],
     sdk_version: "14",
+    stl: "libc++_static",
     cflags: [
         "-Wall",
         "-Werror",

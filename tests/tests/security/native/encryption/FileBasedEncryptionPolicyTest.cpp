@@ -69,6 +69,10 @@ static void __attribute__((target("crypto"))) executeAESInstruction(void) {
 static void __attribute__((target("sse"))) executeAESInstruction(void) {
     asm volatile("aesenc %%xmm1, %%xmm0" : : : "xmm0");
 }
+#elif defined(__riscv)
+static void __attribute__((target("crypto"))) executeAESInstruction(void) {
+    GTEST_LOG_(INFO) << "FIXME !!!";
+}
 #else
 #warning "unknown architecture, assuming AES instructions are available"
 static void executeAESInstruction(void) {}
