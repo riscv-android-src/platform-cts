@@ -35,6 +35,7 @@ LOCAL_PREBUILT_JNI_LIBS_mips := ../wrap.sh
 LOCAL_PREBUILT_JNI_LIBS_mips64 := ../wrap.sh
 LOCAL_PREBUILT_JNI_LIBS_x86 := ../wrap.sh
 LOCAL_PREBUILT_JNI_LIBS_x86_64 := ../wrap.sh
+LOCAL_PREBUILT_JNI_LIBS_riscv64 := ../wrap.sh
 
 LOCAL_PACKAGE_NAME := CtsWrapWrapDebugTestCases
 LOCAL_LICENSE_KINDS := SPDX-license-identifier-Apache-2.0
