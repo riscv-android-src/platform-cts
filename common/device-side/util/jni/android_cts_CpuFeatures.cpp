@@ -40,6 +40,12 @@ jboolean android_cts_CpuFeatures_isArm64Cpu(JNIEnv* env, jobject thiz)
     return cpuFamily == ANDROID_CPU_FAMILY_ARM64;
 }
 
+jboolean android_cts_CpuFeatures_isRiscv64Cpu(JNIEnv* env, jobject thiz)
+{
+    AndroidCpuFamily cpuFamily = android_getCpuFamily();
+    return cpuFamily == ANDROID_CPU_FAMILY_RISCV64;
+}
+
 jboolean android_cts_CpuFeatures_isX86_64Cpu(JNIEnv* env, jobject thiz)
 {
     AndroidCpuFamily cpuFamily = android_getCpuFamily();
@@ -72,6 +78,8 @@ static JNINativeMethod gMethods[] = {
             (void *) android_cts_CpuFeatures_isX86Cpu  },
     {  "isArm64Cpu", "()Z",
             (void *) android_cts_CpuFeatures_isArm64Cpu  },
+    {  "isRiscv64Cpu", "()Z",
+            (void *) android_cts_CpuFeatures_isRiscv64Cpu  },
     {  "isX86_64Cpu", "()Z",
             (void *) android_cts_CpuFeatures_isX86_64Cpu  },
     {  "getHwCaps", "()I",
